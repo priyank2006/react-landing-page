@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <nav>
+        <div className="logo">
+          <img src="https://marvellifestyle.com/wp-content/themes/MyCallistus/images/marvel%20logo.jpg" alt="" />
+        </div>
+        <ul>
+          <li href="#"> Home </li>
+          <li href="#"> Our Products </li>
+          <li href="#"> About Us </li>
+          <li href="#"> Contact Us </li>
+          <li href="#"> Services </li>
+          <li href="#"> Careers </li>
+        </ul>
+
+        <div className="btn-group">
+          <button> Dealer Login </button>
+        </div>
+      </nav>
     </div>
   );
 }
