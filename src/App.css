@@ -32,3 +32,70 @@ nav button {
     border-radius: 10px;
     color: #fff;
 }
+
+.main-section {
+    display: flex;
+}
+
+.main-content {
+    max-width: 110vh;
+    margin: 0;
+    align-items: center;
+    max-height: calc(100vh - 72px);
+}
+
+.main-content h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.main-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.main-content img {
+    width: 70px;
+    height: auto;
+}
+
+.main-image {
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-evenly;
+}
+
+.main-image img {
+    width: 100%;
+    height: 500px;
+}
+
+.shopping-options {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shopping-options button {
+    all: unset;
+    background-color: red;
+    color: #fff;
+    gap: "1px";
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.available-at {
+    display: flex;
+}
+
+.available-at img {
+    display: flex;
+    width: 10% !important;
+    height: 10% !important;
+}
+
+.container {
+    margin: 20px;
+}
